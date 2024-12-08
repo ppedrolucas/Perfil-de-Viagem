@@ -31,3 +31,15 @@ body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+a {
+  text-decoration: none;
+
+  /* Tira a cor padrão do elemento "a" e herda a cor do elemento pai */
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
