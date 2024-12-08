@@ -43,3 +43,13 @@ a:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+.container {
+  padding-inline: 32px; /*Espaços nas laterais*/
+  max-width: 1280px; /*Largura máxima do container*/
+  margin-inline: auto; /*Sempre deixá-lo centralizado no meio da tela*/
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
