@@ -24,3 +24,22 @@ nav ul li:last-child img {
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media (width <= 60em) {
+  nav {
+    padding-block: 1rem;
+
+    ul {
+      gap: 1rem;
+    }
+  }
+  nav[class="container"] {
+    padding-inline: 1rem;
+  }
+  #primary-menu {
+    & li:nth-child(2),
+    li:nth-child(3) {
+      display: none;
+    }
+  }
+}
